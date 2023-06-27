@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+}
+main {
+    margin-top: 30%;
+    text-align: center;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+label {
+    font-size: large;
+}
+
+input, select{
+    font-size: small;
+    width: 100px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+button {
+    padding: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: rgb(19, 19, 225);
+    border-radius: 50%;
+}
+

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+  </header>
+  <body>
+    <main>
+      <div>
+        <form action="/includes/handler.php" method="post">
+          <label for="firstname">First name:</label><br>
+          <input required="" type="text" name="firstname" id="firstname" placeholder="Firts name...."><br>
+          <label for="lastname">Last name:</label><br>
+          <input type="text" name="lastname" id="lastname" placeholder="Last name...."><br>
+          <label for="favouritepet">Favourite Pet?</label><br>
+          <select id="favouritepet" name="favouritepet">
+            <option value= "none">None</option>
+            <option value="dog">dog</option>
+            <option value="bird">bird</option>
+            <option value="cat">cat</option>
+          </select><br>
+          <button type="submit">SUBMIT</button>
+        </form>
+      </div>  
+    </main>
+  </body>
+</html>
